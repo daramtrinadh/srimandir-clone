@@ -1,0 +1,56 @@
+.home-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: #fef5ec;
+  height: 100%;
+}
+
+.intro {
+  width: 50%;
+  margin: 7px;
+  order: 0;
+}
+
+.banner-img {
+  width: 50%;
+  margin: 7px;
+  order: 1;
+}
+.para-content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.no1 {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+.download-btn{
+  border-width:0px;
+  margin:7px;
+  cursor:pointer;
+}
+
+.span-text{
+  color:#f18912;
+}
+@media screen and (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  .intro,
+  .banner-img {
+    width: 100%;
+    order: unset;
+  }
+}

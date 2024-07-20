@@ -1,0 +1,55 @@
+.header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    position:sticky;
+}
+.link{
+    text-decoration: none;
+    margin:7px;
+    color:Black;
+    font-weight: bold;
+}
+.select-option{
+    width:80px;
+    padding:7px;
+    margin:7px;
+}
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.action-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding:10px;
+    
+  }
+  .menu-items{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+  }
+.icon{
+    margin:10px;
+}
+.item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.call-div{
+    background-color: #f9f8fd;
+    border-radius:5px;
+    padding:10px;
+}
